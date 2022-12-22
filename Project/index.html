@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="counting.css">
+    <title>Counting App</title>
+</head>
+<body>
+    <div class="main">
+
+        <h1 class="header" >
+            A counting App
+        </h1>
+        <div class="num">
+            0 
+        </div>
+
+        <div class="selector">
+            <p> Count in: 
+                <ul>
+                    <li onclick="myNumber2()"> 2 </li>
+                    <li onclick="myNumber3()"> 3 </li>
+                    <li onclick="myNumber4()"> 4 </li>
+                    <li onclick="myNumber5()"> 5 </li>
+                    <li onclick="myNumber6()"> 6 </li>
+                    <li onclick="myNumber7()"> 7 </li>
+                    <li onclick="myNumber8()"> 8 </li>
+                    <li onclick="myNumber9()"> 9 </li>
+                    <li onclick="myNumber10()"> 10 </li>
+
+                </ul>
+            </p>
+        </div>
+
+        <br>
+        <div class="btn">
+            <button onclick="myIncrement()" id="increment-btn" type="submit"> Increase </button>
+            <button onclick="myDelete()" id="delete-btn" type="submit">Decrease</button>
+            <button onclick="save()" id="save-btn" type="submit"> Save</button>
+        </div>
+        <h2 id="demo"> Previously Counted: </h2>
+
+    </div>
+    <script src="counting.js"></script>
+</body>
+</html>
